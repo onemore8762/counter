@@ -1,0 +1,64 @@
+
+
+
+.number {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding-left: 25px;
+    background-color: #3ee2ff;
+    margin: 20px 20px 0;
+}
+
+.button {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number{
+    border-radius: 5px;
+    border: 2px solid #3ee2ff;
+    flex-grow: 1;
+}
+
+.red {
+    color: red
+}
+
+.error{
+    height: 16px;
+}
+
+.button button {
+    border: none;
+    background-color: #3ee2ff;
+    border-radius: 5px;
+    font-size: 50px;
+    width: 150px;
+}
+
+button:disabled{
+    text-decoration: line-through;
+}
+.value{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+.value:nth-child(2){
+    gap: 32px;
+}
+
+.value input{
+    max-width: 75px;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+    height: 35px;
+}

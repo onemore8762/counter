@@ -1,0 +1,40 @@
+
+
+
+.number {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ee2ff;
+    margin: 20px 20px 0;
+}
+
+.button {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number, .button {
+    border-radius: 5px;
+    border: 2px solid #3ee2ff;
+    flex-grow: 1;
+}
+
+.red {
+    color: red
+}
+
+.button button {
+    border: none;
+    background-color: #3ee2ff;
+    border-radius: 5px;
+    font-size: 50px;
+    width: 150px;
+}
+
+button:disabled{
+    text-decoration: line-through;
+}
