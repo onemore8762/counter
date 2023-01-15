@@ -16,7 +16,7 @@ export const Button = (props: ButtonType) => {
     }
 
     return (
-        <button onClick={onclickHandler} disabled={deActive}>{name}</button>
+        <button onClick={onclickHandler} disabled={deActive} style={{margin: 5}}>{name}</button>
     );
 };
 

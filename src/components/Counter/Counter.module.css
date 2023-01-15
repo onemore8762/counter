@@ -34,7 +34,3 @@
     font-size: 50px;
     width: 150px;
 }
-
-button:disabled{
-    text-decoration: line-through;
-}

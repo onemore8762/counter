@@ -1,13 +1,14 @@
 
 .App {
+  background: #263b4f;
   margin: 0 auto;
-  max-width: 1200px;
   font-weight: bold;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  min-height: 100vh
+  height: 100vh;
+  width: 100vw;
 }
 
 .content {
